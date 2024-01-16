@@ -1,0 +1,140 @@
+[
+	{
+		"inputs": [],
+		"name": "NothingToClaimATM",
+		"type": "error"
+	},
+	{
+		"inputs": [],
+		"name": "ReferenceSeemsUnintended",
+		"type": "error"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "avatarID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "donationAmountFC",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "fCBuyPrice",
+				"type": "uint256"
+			}
+		],
+		"name": "appreciateAvatar",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "avatarCounter",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "avatars",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "from",
+				"type": "address"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "name",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "linkToImage",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "donationsReceived",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "donationsClaimed",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "claimDonations",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "name",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "linkToImage",
+				"type": "string"
+			}
+		],
+		"name": "create",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "freedomCashSmartContract",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
